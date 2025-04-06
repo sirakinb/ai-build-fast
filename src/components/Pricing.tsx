@@ -55,7 +55,7 @@ const Pricing = () => {
           </div>
           
           {/* Automated Workflow Package */}
-          <div className="rounded-xl overflow-hidden border border-[#2A2D3E] bg-black flex flex-col">
+          <div className="rounded-xl overflow-hidden border border-[#2A2D3E] bg-card/50 flex flex-col">
             <div className="px-6 pt-12 pb-8 flex-grow">
               <div className="bg-white/10 inline-block px-4 py-1 rounded-full text-white mb-4">
                 Quick turnaround
