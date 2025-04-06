@@ -17,72 +17,53 @@ const CallToAction = () => {
   };
 
   return (
-    <section id="cta" className="section-container bg-background">
+    <section id="cta" className="section-container bg-[#131520] py-16">
       <div className="max-w-3xl mx-auto text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Let's Build Something Smart</h2>
-        <p className="text-lg text-muted">
-          Tell us about your project and we'll get back to you within 24 hours.
-        </p>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Submit Your Project</h2>
       </div>
       
       <div className="max-w-2xl mx-auto">
-        <form onSubmit={handleSubmit} className="space-y-6 bg-card p-8 rounded-xl shadow-md border border-border">
+        <form onSubmit={handleSubmit} className="space-y-6 bg-[#1E2030] p-8 rounded-xl">
           <div className="space-y-2">
-            <label htmlFor="message" className="text-sm font-medium text-white">
-              Tell us more about your project
-            </label>
             <Textarea
               id="message"
               placeholder="Describe your idea or the problem you're trying to solve"
-              rows={5}
-              className="bg-card border-border text-white placeholder:text-muted"
+              rows={7}
+              className="bg-[#1E2030] border-[#383B50] text-white placeholder:text-gray-400 text-base"
               required
             />
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="space-y-2">
-              <label htmlFor="email" className="text-sm font-medium text-white">
-                Email
-              </label>
+            <div>
               <Input
                 id="email"
                 type="email"
-                placeholder="your@email.com"
-                className="bg-card border-border text-white placeholder:text-muted"
+                placeholder="Email"
+                className="bg-[#1E2030] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
                 required
               />
             </div>
-            <div className="space-y-2">
-              <label htmlFor="name" className="text-sm font-medium text-white">
-                Name
-              </label>
+            <div>
               <Input
                 id="name"
-                placeholder="Your name"
-                className="bg-card border-border text-white placeholder:text-muted"
+                placeholder="Name"
+                className="bg-[#1E2030] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
                 required
               />
             </div>
           </div>
           
-          <div className="space-y-2">
-            <label htmlFor="project-type" className="text-sm font-medium text-white">
-              What are you looking to build?
-            </label>
-            <select 
-              id="project-type" 
-              className="w-full h-10 px-3 rounded-md border border-border bg-card text-white placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+          <div>
+            <Input
+              id="topics"
+              placeholder="What are you looking to build? (e.g., MVP, Automation, AI tool)"
+              className="bg-[#1E2030] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
               required
-            >
-              <option value="" disabled selected>Select an option</option>
-              <option value="mvp">An MVP</option>
-              <option value="automation">Automated Workflow</option>
-              <option value="other">Something else</option>
-            </select>
+            />
           </div>
           
-          <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
+          <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-medium py-6 h-auto">
             Submit Your Project
           </Button>
         </form>
