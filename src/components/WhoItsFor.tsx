@@ -41,7 +41,7 @@ const WhoItsFor = () => {
             {/* Table Header */}
             <div className="grid grid-cols-2 bg-card/70 border-b border-border">
               <div className="p-5 text-xl font-semibold text-white border-r border-border">The Old Way</div>
-              <div className="p-5 text-xl font-semibold text-white">The New Way (Build With AI)</div>
+              <div className="p-5 text-xl font-semibold text-white text-right">The New Way (Build With AI)</div>
             </div>
             
             {/* Table Body */}
@@ -51,7 +51,7 @@ const WhoItsFor = () => {
                 <div className="col-span-2 flex items-center justify-center border-x border-border">
                   <ArrowRight className="text-primary h-5 w-5" />
                 </div>
-                <div className="col-span-5 p-5 text-white flex items-center">{item.new}</div>
+                <div className="col-span-5 p-5 text-white flex items-center justify-end text-right">{item.new}</div>
               </div>
             ))}
           </div>
