@@ -8,7 +8,7 @@ const PortfolioShowcase = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            A glimpse into the <span className="text-[#6C7EE1]">websites</span> that I have built.
+            A glimpse into the <span className="text-gray-400">websites</span> that I have built.
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
             Here are some of the MVPs I've helped founders launch. They all had innovative ideas and I helped them convert them into reality.
@@ -96,7 +96,7 @@ const PortfolioShowcase = () => {
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
                 src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80" 
-                alt="MarketingHub dashboard" 
+                alt="Content Catalyst dashboard" 
                 className="w-full h-auto"
               />
             </div>
@@ -109,7 +109,9 @@ const PortfolioShowcase = () => {
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-white mb-2">MarketingHub</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">
+              <span className="text-[#9b87f5]">Content Catalyst</span>
+            </h3>
             
             <p className="text-gray-400 mt-1">
               A centralized platform that consolidates campaign data from various sources, allowing users to monitor metrics in real-time.
