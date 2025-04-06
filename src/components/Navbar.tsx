@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <a href="#" className="flex items-center">
             <img 
-              src="/lovable-uploads/5ad2b15f-34e1-45eb-ad25-66ec5a94bb56.png" 
+              src="/lovable-uploads/146d7168-f2fc-499a-b964-2e9a10ea3aa5.png" 
               alt="Pentridge Media" 
               className="h-14"
             />
