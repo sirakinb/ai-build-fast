@@ -29,7 +29,7 @@ const Index = () => {
             <div className="mb-6 md:mb-0">
               <a href="#" className="flex items-center">
                 <img 
-                  src="/lovable-uploads/98462561-f945-42b8-b025-143d4523c344.png" 
+                  src="/lovable-uploads/146d7168-f2fc-499a-b964-2e9a10ea3aa5.png" 
                   alt="Pentridge Media" 
                   className="h-16"
                 />
