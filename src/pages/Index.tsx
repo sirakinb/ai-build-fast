@@ -27,11 +27,17 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <a href="#" className="text-xl font-semibold text-white">BuildWithAI</a>
-              <p className="text-muted mt-2">Turn ideas into reality with AI</p>
+              <a href="#" className="flex items-center">
+                <img 
+                  src="/lovable-uploads/98462561-f945-42b8-b025-143d4523c344.png" 
+                  alt="Pentridge Media" 
+                  className="h-12"
+                />
+              </a>
+              <p className="text-muted mt-2">Your Partner in AI-Powered Productivity</p>
             </div>
             <div className="text-sm text-muted">
-              © {new Date().getFullYear()} BuildWithAI. All rights reserved.
+              © {new Date().getFullYear()} Pentridge Media. All rights reserved.
             </div>
           </div>
         </div>
