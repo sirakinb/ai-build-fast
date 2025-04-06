@@ -8,11 +8,13 @@ import WhoItsFor from '@/components/WhoItsFor';
 import Pricing from '@/components/Pricing';
 import HowItWorks from '@/components/HowItWorks';
 import CallToAction from '@/components/CallToAction';
+import LimitedSpotsBanner from '@/components/LimitedSpotsBanner';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
+      <LimitedSpotsBanner />
       <main>
         <HeroSection />
         <ValueProposition />
