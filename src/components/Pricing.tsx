@@ -29,7 +29,7 @@ const Pricing = () => {
                 <p className="text-white/70 mt-1">Delivered in 4-5 weeks</p>
               </div>
               
-              <div className="mt-8 mb-6 flex-grow">
+              <div className="mt-8 mb-6">
                 <h4 className="text-xl font-semibold text-white mb-6">What's Included:</h4>
                 <ul className="space-y-4">
                   {[
@@ -47,8 +47,10 @@ const Pricing = () => {
                   ))}
                 </ul>
               </div>
-              
-              <Button className="w-full bg-white hover:bg-white/90 text-background mt-auto">
+            </div>
+            
+            <div className="px-6 pb-8 mt-auto">
+              <Button className="w-full bg-white hover:bg-white/90 text-background">
                 Get Started
               </Button>
             </div>
@@ -66,7 +68,7 @@ const Pricing = () => {
                 <p className="text-white/70 mt-1">Delivered in 7–10 days</p>
               </div>
               
-              <div className="mt-8 mb-6 flex-grow">
+              <div className="mt-8 mb-6">
                 <h4 className="text-xl font-semibold text-white mb-6">What's Included:</h4>
                 <ul className="space-y-4">
                   {[
@@ -83,8 +85,10 @@ const Pricing = () => {
                   ))}
                 </ul>
               </div>
-              
-              <Button className="w-full bg-white hover:bg-white/90 text-background mt-auto">
+            </div>
+            
+            <div className="px-6 pb-8 mt-auto">
+              <Button className="w-full bg-white hover:bg-white/90 text-background">
                 Get Started
               </Button>
             </div>
