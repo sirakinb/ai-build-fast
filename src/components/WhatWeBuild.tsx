@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Laptop, Smartphone, Globe, Monitor } from 'lucide-react';
 
@@ -117,6 +116,14 @@ const PortfolioShowcase = () => {
               A centralized platform that consolidates campaign data from various sources, allowing users to monitor metrics in real-time.
             </p>
           </div>
+        </div>
+        
+        <div className="mt-16 text-center border-t border-[#2A2D3E] pt-12">
+          <p className="text-lg text-white/80 max-w-4xl mx-auto">
+            The projects showcased here represent a portion of our work that can be shared publicly. 
+            We've developed other solutions that are currently protected by NDAs. 
+            If you're interested in learning more, we'd be happy to have a private conversation to explore other areas in our portfolio.
+          </p>
         </div>
       </div>
     </section>
