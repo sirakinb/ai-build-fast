@@ -12,7 +12,7 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/98462561-f945-42b8-b025-143d4523c344.png" 
               alt="Pentridge Media" 
-              className="h-10"
+              className="h-14"
             />
           </a>
           

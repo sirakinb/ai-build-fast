@@ -31,7 +31,7 @@ const Index = () => {
                 <img 
                   src="/lovable-uploads/98462561-f945-42b8-b025-143d4523c344.png" 
                   alt="Pentridge Media" 
-                  className="h-12"
+                  className="h-16"
                 />
               </a>
               <p className="text-muted mt-2">Your Partner in AI-Powered Productivity</p>
