@@ -122,7 +122,7 @@ const PortfolioShowcase = () => {
             </h3>
             
             <p className="text-gray-400 mt-1">
-              A sophisticated AI research tool that scours the web to find precise answers to complex questions. Seamlessly integrates with your existing workflows, allowing you to transform research findings into actionable insights without switching platforms.
+              An AI tool that finds answers to complex questions by searching the web. Easily connects with your existing workflows to turn research into action.
             </p>
           </div>
         </div>
