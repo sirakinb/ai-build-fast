@@ -91,18 +91,18 @@ const PortfolioShowcase = () => {
             </p>
           </div>
           
-          {/* Project 4 */}
+          {/* Project 4 - AI-Powered Research Assistant (renamed from Content Catalyst) */}
           <div className="flex flex-col h-full">
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80" 
-                alt="Content Catalyst dashboard" 
+                src="/lovable-uploads/418b4d4d-3f0e-4722-b057-91e649014455.png" 
+                alt="AI-Powered Research Assistant interface" 
                 className="w-full h-auto"
               />
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
-              {["Payments", "Real-time Analytics", "Dashboard Creation"].map((tag, index) => (
+              {["AI", "Web Research", "Workflow Integration", "Knowledge Management"].map((tag, index) => (
                 <span key={index} className={`px-4 py-1.5 rounded-full text-sm text-white ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
                   {tag}
                 </span>
@@ -110,11 +110,11 @@ const PortfolioShowcase = () => {
             </div>
             
             <h3 className="text-2xl font-bold text-white mb-2">
-              Content Catalyst
+              AI-Powered Research Assistant
             </h3>
             
             <p className="text-gray-400 mt-1">
-              A centralized platform that consolidates campaign data from various sources, allowing users to monitor metrics in real-time.
+              An interface that allows you to query the web for different topics, with the capability of integrating it into your workflows to take the query results and do other things with it.
             </p>
           </div>
         </div>
