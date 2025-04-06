@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import ValueProposition from '@/components/ValueProposition';
-import WhatWeBuild from '@/components/WhatWeBuild';
+import PortfolioShowcase from '@/components/WhatWeBuild';
 import WhoItsFor from '@/components/WhoItsFor';
 import HowItWorks from '@/components/HowItWorks';
 import LimitedSpotsBanner from '@/components/LimitedSpotsBanner';
@@ -16,7 +16,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <ValueProposition />
-        <WhatWeBuild />
+        <PortfolioShowcase />
         <WhoItsFor />
         <HowItWorks />
         <LimitedSpotsBanner />

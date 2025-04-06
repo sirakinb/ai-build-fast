@@ -1,40 +1,119 @@
 
 import React from 'react';
-import { RocketIcon, GitMergeIcon } from 'lucide-react';
+import { Laptop, Smartphone, Globe, Monitor } from 'lucide-react';
 
-const WhatWeBuild = () => {
+const PortfolioShowcase = () => {
   return (
-    <section id="what-we-build" className="section-container">
-      <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 gradient-text">What We Build</h2>
-      </div>
-      
-      <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-        <div className="featured-item">
-          <div className="flex items-start">
-            <div className="h-10 w-10 bg-purple-light rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-              <RocketIcon className="h-5 w-5 text-purple" />
-            </div>
-            <div className="ml-4">
-              <h3 className="text-xl font-semibold mb-3">MVPs</h3>
-              <p className="text-gray-600">
-                For founders or creators who have an idea and need a version 1—fast.
-              </p>
-            </div>
-          </div>
+    <section id="portfolio-showcase" className="py-20 bg-background">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            A glimpse into the <span className="text-[#6C7EE1]">websites</span> that I have built.
+          </h2>
+          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+            Here are some of the MVPs I've helped founders launch. They all had innovative ideas and I helped them convert them into reality.
+          </p>
         </div>
         
-        <div className="featured-item">
-          <div className="flex items-start">
-            <div className="h-10 w-10 bg-purple-light rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-              <GitMergeIcon className="h-5 w-5 text-purple" />
+        <div className="grid md:grid-cols-2 gap-8 mt-16">
+          {/* Project 1 */}
+          <div className="flex flex-col h-full">
+            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
+              <img 
+                src="/lovable-uploads/206a607a-5bd7-40c9-8172-3c934a047917.png" 
+                alt="ProjectName.ai dashboard" 
+                className="w-full h-auto"
+              />
             </div>
-            <div className="ml-4">
-              <h3 className="text-xl font-semibold mb-3">Automated Workflows</h3>
-              <p className="text-gray-600">
-                For business operators who want to eliminate bottlenecks and save time using AI-powered automation.
-              </p>
+            
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["AI", "Productivity", "Mental Clarity", "Task Management"].map((tag, index) => (
+                <span key={index} className={`px-4 py-1.5 rounded-full text-sm ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
+                  {tag}
+                </span>
+              ))}
             </div>
+            
+            <h3 className="text-2xl font-bold text-[#6C7EE1] mb-2">ProjectName.ai</h3>
+            
+            <p className="text-white/80 mt-1">
+              An AI-powered productivity tool that transforms scattered thoughts into organized, actionable items.
+            </p>
+          </div>
+          
+          {/* Project 2 */}
+          <div className="flex flex-col h-full">
+            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
+              <img 
+                src="/lovable-uploads/106b236d-99b6-4b7c-a47d-9aefa63d5864.png" 
+                alt="TravelApp mobile app" 
+                className="w-full h-auto"
+              />
+            </div>
+            
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["Mobile App", "Social Networking", "Solo Travelers"].map((tag, index) => (
+                <span key={index} className={`px-4 py-1.5 rounded-full text-sm ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+            
+            <h3 className="text-2xl font-bold text-[#6C7EE1] mb-2">TravelApp</h3>
+            
+            <p className="text-white/80 mt-1">
+              A social travel app designed for solo travelers to connect, share experiences, and discover new destinations.
+            </p>
+          </div>
+          
+          {/* Project 3 */}
+          <div className="flex flex-col h-full">
+            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
+              <img 
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80" 
+                alt="LearnAI study assistant" 
+                className="w-full h-auto"
+              />
+            </div>
+            
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["AI", "EdTech", "Study Companion", "PDF/Video Analysis"].map((tag, index) => (
+                <span key={index} className={`px-4 py-1.5 rounded-full text-sm ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+            
+            <h3 className="text-2xl font-bold text-[#6C7EE1] mb-2">LearnAI</h3>
+            
+            <p className="text-white/80 mt-1">
+              A smart study assistant that helps users engage deeply with study materials like PDFs and videos.
+            </p>
+          </div>
+          
+          {/* Project 4 */}
+          <div className="flex flex-col h-full">
+            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
+              <img 
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80" 
+                alt="MarketingHub dashboard" 
+                className="w-full h-auto"
+              />
+            </div>
+            
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["Payments", "Real-time Analytics", "Dashboard Creation"].map((tag, index) => (
+                <span key={index} className={`px-4 py-1.5 rounded-full text-sm ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+            
+            <h3 className="text-2xl font-bold text-[#6C7EE1] mb-2">MarketingHub</h3>
+            
+            <p className="text-white/80 mt-1">
+              A centralized platform that consolidates campaign data from various sources, allowing users to monitor metrics in real-time.
+            </p>
           </div>
         </div>
       </div>
@@ -42,4 +121,4 @@ const WhatWeBuild = () => {
   );
 };
 
-export default WhatWeBuild;
+export default PortfolioShowcase;
