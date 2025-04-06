@@ -66,28 +66,28 @@ const PortfolioShowcase = () => {
             </p>
           </div>
           
-          {/* Project 3 */}
+          {/* Project 3 - Content Repurposer (replacing LearnAI) */}
           <div className="flex flex-col h-full">
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80" 
-                alt="LearnAI study assistant" 
+                src="/lovable-uploads/f19ba37b-be04-4c6c-a5a7-dd800570c785.png" 
+                alt="Content Repurposer workflow" 
                 className="w-full h-auto"
               />
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
-              {["AI", "EdTech", "Study Companion", "PDF/Video Analysis"].map((tag, index) => (
+              {["AI", "Content Creation", "Social Media", "Audio/Video Processing"].map((tag, index) => (
                 <span key={index} className={`px-4 py-1.5 rounded-full text-sm text-white ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
                   {tag}
                 </span>
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-white mb-2">LearnAI</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">Content Repurposer</h3>
             
             <p className="text-gray-400 mt-1">
-              A smart study assistant that helps users engage deeply with study materials like PDFs and videos.
+              A platform that automates the process of creating content assets for social media channels based on audio or video podcasts, meetings, and long form content.
             </p>
           </div>
           
