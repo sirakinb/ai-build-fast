@@ -14,6 +14,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
+      <LimitedSpotsBanner />
       <main>
         <HeroSection />
         <ValueProposition />
@@ -21,7 +22,6 @@ const Index = () => {
         <WhoItsFor />
         <HowItWorks />
         <Pricing />
-        <LimitedSpotsBanner />
         <CallToAction />
       </main>
       
