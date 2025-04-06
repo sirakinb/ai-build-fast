@@ -41,28 +41,28 @@ const PortfolioShowcase = () => {
             </p>
           </div>
           
-          {/* Project 2 */}
+          {/* Project 2 - Calorie Canvas (replacing TravelApp) */}
           <div className="flex flex-col h-full">
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
-                src="/lovable-uploads/106b236d-99b6-4b7c-a47d-9aefa63d5864.png" 
-                alt="TravelApp mobile app" 
+                src="/lovable-uploads/7b2a4c04-7dec-4097-aa60-d891defd88c8.png" 
+                alt="Calorie Canvas app screenshot" 
                 className="w-full h-auto"
               />
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
-              {["Mobile App", "Social Networking", "Solo Travelers"].map((tag, index) => (
+              {["Mobile App", "AI-Powered", "Nutrition", "Health & Fitness"].map((tag, index) => (
                 <span key={index} className={`px-4 py-1.5 rounded-full text-sm text-white ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
                   {tag}
                 </span>
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-white mb-2">TravelApp</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">Calorie Canvas</h3>
             
             <p className="text-gray-400 mt-1">
-              A social travel app designed for solo travelers to connect, share experiences, and discover new destinations.
+              Track your calories with just a picture. Snap a photo or scan a barcode, and instantly calculate calories and nutrients with personalized insights.
             </p>
           </div>
           
