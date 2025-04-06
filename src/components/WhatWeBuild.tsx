@@ -11,7 +11,7 @@ const PortfolioShowcase = () => {
             A peak into what we have built
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            Below are some of the apps and workflows we've helped founders launch. They all had innovative ideas and we helped them convert them into reality.
+            Below are some of the apps and workflows we've helped founders launch.
           </p>
         </div>
         
