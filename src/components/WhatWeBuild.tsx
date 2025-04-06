@@ -45,7 +45,7 @@ const PortfolioShowcase = () => {
           <div className="flex flex-col h-full">
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
-                src="/lovable-uploads/7b2a4c04-7dec-4097-aa60-d891defd88c8.png" 
+                src="/lovable-uploads/d7e9c0c2-2476-44be-8d3f-71975105597e.png" 
                 alt="Calorie Canvas app screenshot" 
                 className="w-full h-auto"
               />
