@@ -5,6 +5,7 @@ import HeroSection from '@/components/HeroSection';
 import ValueProposition from '@/components/ValueProposition';
 import PortfolioShowcase from '@/components/WhatWeBuild';
 import WhoItsFor from '@/components/WhoItsFor';
+import Pricing from '@/components/Pricing';
 import HowItWorks from '@/components/HowItWorks';
 import LimitedSpotsBanner from '@/components/LimitedSpotsBanner';
 import CallToAction from '@/components/CallToAction';
@@ -18,6 +19,7 @@ const Index = () => {
         <ValueProposition />
         <PortfolioShowcase />
         <WhoItsFor />
+        <Pricing />
         <HowItWorks />
         <LimitedSpotsBanner />
         <CallToAction />
