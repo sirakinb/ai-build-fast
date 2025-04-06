@@ -14,7 +14,7 @@ const HeroSection = () => {
             Ready to Build with AI?
           </h1>
           <p className="text-xl md:text-2xl text-muted mb-10 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Whether it's a custom app or a smarter way to run your business—we can help you build it.
+            Whether it's a custom app or automating your operations — we help you build faster and smarter with AI.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <Button 
@@ -28,7 +28,7 @@ const HeroSection = () => {
               className="border-white text-white hover:bg-white/10"
               onClick={() => window.location.href = "#download"}
             >
-              Download Your Free Prompt Improving Tool
+              Get Your Prompt Improver (Free AI Tool)
             </Button>
           </div>
         </div>
