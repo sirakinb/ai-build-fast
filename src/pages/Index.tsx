@@ -19,8 +19,8 @@ const Index = () => {
         <ValueProposition />
         <PortfolioShowcase />
         <WhoItsFor />
-        <Pricing />
         <HowItWorks />
+        <Pricing />
         <LimitedSpotsBanner />
         <CallToAction />
       </main>
