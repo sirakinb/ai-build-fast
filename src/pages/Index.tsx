@@ -7,14 +7,12 @@ import PortfolioShowcase from '@/components/WhatWeBuild';
 import WhoItsFor from '@/components/WhoItsFor';
 import Pricing from '@/components/Pricing';
 import HowItWorks from '@/components/HowItWorks';
-import LimitedSpotsBanner from '@/components/LimitedSpotsBanner';
 import CallToAction from '@/components/CallToAction';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <LimitedSpotsBanner />
       <main>
         <HeroSection />
         <ValueProposition />
