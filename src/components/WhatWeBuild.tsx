@@ -16,32 +16,32 @@ const PortfolioShowcase = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 mt-16">
-          {/* Project 1 */}
+          {/* Project 1 - Rental Application Automation (replacing ProjectName.ai) */}
           <div className="flex flex-col h-full">
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
-                src="/lovable-uploads/206a607a-5bd7-40c9-8172-3c934a047917.png" 
-                alt="ProjectName.ai dashboard" 
+                src="/lovable-uploads/7ef508ad-2830-4fb5-8dc2-7ca4d8b82887.png" 
+                alt="Rental Application Automation workflow diagram" 
                 className="w-full h-auto"
               />
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
-              {["AI", "Productivity", "Mental Clarity", "Task Management"].map((tag, index) => (
+              {["Workflow Automation", "Real Estate", "Data Processing", "Application Tracking"].map((tag, index) => (
                 <span key={index} className={`px-4 py-1.5 rounded-full text-sm text-white ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
                   {tag}
                 </span>
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-white mb-2">ProjectName.ai</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">Rental Application Automation</h3>
             
             <p className="text-gray-400 mt-1">
-              An AI-powered productivity tool that transforms scattered thoughts into organized, actionable items.
+              A workflow automation tool that streamlines the rental application process, tracking applicants through each stage of renting a home.
             </p>
           </div>
           
-          {/* Project 2 - Calorie Canvas (replacing TravelApp) */}
+          {/* Project 2 - Calorie Canvas */}
           <div className="flex flex-col h-full">
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
