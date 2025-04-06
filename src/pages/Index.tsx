@@ -11,7 +11,7 @@ import CallToAction from '@/components/CallToAction';
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background">
       <Navbar />
       <main>
         <HeroSection />
@@ -23,14 +23,14 @@ const Index = () => {
         <CallToAction />
       </main>
       
-      <footer className="bg-gray-50 py-12">
+      <footer className="bg-card py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <a href="#" className="text-xl font-semibold gradient-text">BuildWithAI</a>
-              <p className="text-gray-500 mt-2">Turn ideas into reality with AI</p>
+              <a href="#" className="text-xl font-semibold text-white">BuildWithAI</a>
+              <p className="text-muted mt-2">Turn ideas into reality with AI</p>
             </div>
-            <div className="text-sm text-gray-500">
+            <div className="text-sm text-muted">
               © {new Date().getFullYear()} BuildWithAI. All rights reserved.
             </div>
           </div>
