@@ -29,7 +29,7 @@ const CallToAction = () => {
               id="message"
               placeholder="Describe your idea or the problem you're trying to solve"
               rows={7}
-              className="bg-[#1E2030] border-[#383B50] text-white placeholder:text-gray-400 text-base"
+              className="bg-[#191B2A] border-[#383B50] text-white placeholder:text-gray-400 text-base"
               required
             />
           </div>
@@ -40,7 +40,7 @@ const CallToAction = () => {
                 id="email"
                 type="email"
                 placeholder="Email"
-                className="bg-[#1E2030] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
+                className="bg-[#191B2A] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
                 required
               />
             </div>
@@ -48,7 +48,7 @@ const CallToAction = () => {
               <Input
                 id="name"
                 placeholder="Name"
-                className="bg-[#1E2030] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
+                className="bg-[#191B2A] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
                 required
               />
             </div>
@@ -58,14 +58,14 @@ const CallToAction = () => {
             <Input
               id="topics"
               placeholder="What are you looking to build? (e.g., MVP, Automation, AI tool)"
-              className="bg-[#1E2030] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
+              className="bg-[#191B2A] border-[#383B50] text-white placeholder:text-gray-400 h-12 text-base"
               required
             />
           </div>
           
           <button 
             type="submit" 
-            className="w-full flex items-center justify-center rounded-md border border-white bg-[#1E2030] hover:bg-[#2A2C40] text-white text-lg font-medium py-6 h-auto px-4"
+            className="w-full flex items-center justify-center rounded-md border border-white bg-[#191B2A] hover:bg-[#22253B] text-white text-lg font-medium py-6 h-auto px-4"
           >
             Submit Your Project
           </button>
