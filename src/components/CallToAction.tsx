@@ -59,7 +59,7 @@ const CallToAction = () => {
           ))}
         </Accordion>
         
-        <div className="mt-28 text-center">
+        <div className="mt-48 text-center">
           <div className="mb-4">
             <h3 className="text-2xl font-bold text-white mb-2">This Is Your Sign To Move</h3>
             <p className="text-muted mb-6">Turn your ideas into real products or streamline your business with smart automation.</p>
