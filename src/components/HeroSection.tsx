@@ -26,8 +26,9 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               className="border-white text-white hover:bg-white/10"
+              href="#download"
             >
-              Learn More
+              Download Your Free Prompt Improving Tool
             </Button>
           </div>
         </div>
