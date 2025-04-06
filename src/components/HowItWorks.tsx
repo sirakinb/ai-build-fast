@@ -69,26 +69,34 @@ const ProcessStep = ({ icon, title, description, number }: { icon: React.ReactNo
   </div>
 );
 
-const ProcessPath = ({ title, timeframe, steps }: { title: string; timeframe: string; steps: any[] }) => (
-  <div className="border border-border bg-card/50 rounded-xl p-8 hover-lift">
-    <div className="mb-6">
-      <span className="bg-white/10 text-white text-sm px-4 py-1 rounded-full">{timeframe}</span>
-      <h3 className="text-2xl font-bold text-white mt-4">{title}</h3>
+const ProcessPath = ({ title, timeframe, steps }: { title: string; timeframe: string; steps: any[] }) => {
+  // Determine the number of columns based on the number of steps
+  const isWorkflowAutomation = steps.length === 4;
+  const gridClass = isWorkflowAutomation 
+    ? "grid grid-cols-1 md:grid-cols-4 gap-6" 
+    : "grid grid-cols-1 md:grid-cols-5 gap-6";
+  
+  return (
+    <div className="border border-border bg-card/50 rounded-xl p-8 hover-lift">
+      <div className="mb-6">
+        <span className="bg-white/10 text-white text-sm px-4 py-1 rounded-full">{timeframe}</span>
+        <h3 className="text-2xl font-bold text-white mt-4">{title}</h3>
+      </div>
+      
+      <div className={gridClass}>
+        {steps.map((step, index) => (
+          <ProcessStep 
+            key={index}
+            icon={step.icon}
+            title={step.title}
+            description={step.description}
+            number={index + 1}
+          />
+        ))}
+      </div>
     </div>
-    
-    <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-      {steps.map((step, index) => (
-        <ProcessStep 
-          key={index}
-          icon={step.icon}
-          title={step.title}
-          description={step.description}
-          number={index + 1}
-        />
-      ))}
-    </div>
-  </div>
-);
+  );
+};
 
 const HowItWorks = () => {
   return (
