@@ -65,7 +65,7 @@ const CallToAction = () => {
           
           <button 
             type="submit" 
-            className="w-full flex items-center justify-center rounded-md border border-white bg-[#1EAEDB] hover:bg-[#33C3F0] text-white text-lg font-medium py-6 h-auto px-4"
+            className="w-full flex items-center justify-center rounded-md border border-white bg-[#1E2030] hover:bg-[#2A2C40] text-white text-lg font-medium py-6 h-auto px-4"
           >
             Submit Your Project
           </button>
