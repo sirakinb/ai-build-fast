@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Laptop, Smartphone, Globe, Monitor } from 'lucide-react';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const PortfolioShowcase = () => {
   return (
@@ -18,12 +18,14 @@ const PortfolioShowcase = () => {
         <div className="grid md:grid-cols-2 gap-8 mt-16">
           {/* Project 1 - Rental Application Automation */}
           <div className="flex flex-col h-full">
-            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E] aspect-video">
-              <img 
-                src="/lovable-uploads/7ef508ad-2830-4fb5-8dc2-7ca4d8b82887.png" 
-                alt="Rental Application Automation workflow diagram" 
-                className="w-full h-full object-cover"
-              />
+            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
+              <AspectRatio ratio={16/9} className="bg-muted">
+                <img 
+                  src="/lovable-uploads/7ef508ad-2830-4fb5-8dc2-7ca4d8b82887.png" 
+                  alt="Rental Application Automation workflow diagram" 
+                  className="w-full h-full object-contain"
+                />
+              </AspectRatio>
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
@@ -43,12 +45,14 @@ const PortfolioShowcase = () => {
           
           {/* Project 2 - Calorie Canvas */}
           <div className="flex flex-col h-full">
-            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E] aspect-video">
-              <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" 
-                alt="Calorie Canvas app screenshot" 
-                className="w-full h-full object-cover"
-              />
+            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
+              <AspectRatio ratio={16/9} className="bg-muted">
+                <img 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" 
+                  alt="Calorie Canvas app screenshot" 
+                  className="w-full h-full object-cover"
+                />
+              </AspectRatio>
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
@@ -68,12 +72,14 @@ const PortfolioShowcase = () => {
           
           {/* Project 3 - Content Repurposing Workflow */}
           <div className="flex flex-col h-full">
-            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E] aspect-video">
-              <img 
-                src="/lovable-uploads/f19ba37b-be04-4c6c-a5a7-dd800570c785.png" 
-                alt="Content Repurposing Workflow diagram" 
-                className="w-full h-full object-cover"
-              />
+            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
+              <AspectRatio ratio={16/9} className="bg-muted">
+                <img 
+                  src="/lovable-uploads/f19ba37b-be04-4c6c-a5a7-dd800570c785.png" 
+                  alt="Content Repurposing Workflow diagram" 
+                  className="w-full h-full object-contain"
+                />
+              </AspectRatio>
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
@@ -93,12 +99,14 @@ const PortfolioShowcase = () => {
           
           {/* Project 4 - AI-Powered Research Assistant */}
           <div className="flex flex-col h-full">
-            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E] aspect-video">
-              <img 
-                src="/lovable-uploads/418b4d4d-3f0e-4722-b057-91e649014455.png" 
-                alt="AI-Powered Research Assistant interface" 
-                className="w-full h-full object-cover"
-              />
+            <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
+              <AspectRatio ratio={16/9} className="bg-muted">
+                <img 
+                  src="/lovable-uploads/418b4d4d-3f0e-4722-b057-91e649014455.png" 
+                  alt="AI-Powered Research Assistant interface" 
+                  className="w-full h-full object-contain"
+                />
+              </AspectRatio>
             </div>
             
             <div className="flex flex-wrap gap-2 mb-4">
