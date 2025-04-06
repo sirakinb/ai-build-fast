@@ -4,7 +4,7 @@ import { Check } from 'lucide-react';
 
 const WhoItsFor = () => {
   const items = [
-    'Have a product or app idea you've been sitting on',
+    'Have a product or app idea you\'ve been sitting on',
     'Run a business and want to save time or streamline a process',
     'Want to explore how AI can actually help you—not just confuse you',
     'Need a partner who can bring the tools and the vision'

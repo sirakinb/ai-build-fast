@@ -6,12 +6,12 @@ const HowItWorks = () => {
     {
       number: 1,
       title: 'Fill out the form',
-      description: 'Tell us what you're looking to build'
+      description: 'Tell us what you\'re looking to build'
     },
     {
       number: 2,
       title: 'Strategy session',
-      description: 'We'll map out your options'
+      description: 'We\'ll map out your options'
     },
     {
       number: 3,
