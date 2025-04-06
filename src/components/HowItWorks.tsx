@@ -56,6 +56,19 @@ const WorkflowAutomationSteps = [
   }
 ];
 
+const ProcessStep = ({ icon, title, description, number }: { icon: React.ReactNode; title: string; description: string; number: number }) => (
+  <div className="flex flex-col items-center">
+    <div className="relative mb-4">
+      {icon}
+      <div className="absolute -top-2 -right-2 bg-primary text-background w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">
+        {number}
+      </div>
+    </div>
+    <h4 className="text-lg font-semibold text-white mb-2 text-center">{title}</h4>
+    <p className="text-white/70 text-center text-sm">{description}</p>
+  </div>
+);
+
 const ProcessPath = ({ title, timeframe, steps }: { title: string; timeframe: string; steps: any[] }) => (
   <div className="border border-border bg-card/50 rounded-xl p-8 hover-lift">
     <div className="mb-6">
@@ -63,19 +76,15 @@ const ProcessPath = ({ title, timeframe, steps }: { title: string; timeframe: st
       <h3 className="text-2xl font-bold text-white mt-4">{title}</h3>
     </div>
     
-    <div className="space-y-8">
+    <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
       {steps.map((step, index) => (
-        <div key={index} className="flex gap-5">
-          <div className="flex-shrink-0 mt-1">
-            {step.icon}
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold text-white mb-2">
-              {index + 1}. {step.title}
-            </h4>
-            <p className="text-white/70">{step.description}</p>
-          </div>
-        </div>
+        <ProcessStep 
+          key={index}
+          icon={step.icon}
+          title={step.title}
+          description={step.description}
+          number={index + 1}
+        />
       ))}
     </div>
   </div>
@@ -91,7 +100,7 @@ const HowItWorks = () => {
         </p>
       </div>
       
-      <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto">
+      <div className="grid md:grid-cols-1 gap-8 max-w-7xl mx-auto">
         <ProcessPath 
           title="MVP Development Flow" 
           timeframe="4–5 Weeks"
