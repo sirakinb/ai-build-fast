@@ -63,7 +63,10 @@ const CallToAction = () => {
             />
           </div>
           
-          <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-medium py-6 h-auto">
+          <Button 
+            type="submit" 
+            className="w-full bg-primary hover:bg-primary/90 text-white border border-white text-lg font-medium py-6 h-auto"
+          >
             Submit Your Project
           </Button>
         </form>
