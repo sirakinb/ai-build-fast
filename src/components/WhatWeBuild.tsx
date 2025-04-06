@@ -16,7 +16,7 @@ const PortfolioShowcase = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 mt-16">
-          {/* Project 1 - Rental Application Automation (replacing ProjectName.ai) */}
+          {/* Project 1 - Rental Application Automation */}
           <div className="flex flex-col h-full">
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
@@ -66,12 +66,12 @@ const PortfolioShowcase = () => {
             </p>
           </div>
           
-          {/* Project 3 - Content Repurposer (replacing LearnAI) */}
+          {/* Project 3 - Content Repurposing Workflow (renamed from Content Repurposer) */}
           <div className="flex flex-col h-full">
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <img 
                 src="/lovable-uploads/f19ba37b-be04-4c6c-a5a7-dd800570c785.png" 
-                alt="Content Repurposer workflow" 
+                alt="Content Repurposing Workflow diagram" 
                 className="w-full h-auto"
               />
             </div>
@@ -84,10 +84,10 @@ const PortfolioShowcase = () => {
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-white mb-2">Content Repurposer</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">Content Repurposing Workflow</h3>
             
             <p className="text-gray-400 mt-1">
-              A platform that automates the process of creating content assets for social media channels based on audio or video podcasts, meetings, and long form content.
+              A workflow that automates the process of creating content assets for social media channels based on audio or video podcasts, meetings, and long form content.
             </p>
           </div>
           
