@@ -90,16 +90,6 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        
-        <div className="mt-12 pt-8 text-center">
-          <div className="inline-flex flex-wrap justify-center gap-4 p-2 rounded-full bg-card/80 border border-[#2A2D3E]">
-            {["How it works", "Our Approach", "Pricing", "Work", "Connect on X"].map((item, index) => (
-              <button key={index} className={`px-4 py-2 rounded-full text-sm ${index === 2 ? 'bg-purple-500/90 text-white' : 'text-white/80 hover:text-white'}`}>
-                {item}
-              </button>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
