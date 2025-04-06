@@ -7,11 +7,11 @@ const PortfolioShowcase = () => {
     <section id="portfolio-showcase" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            A peak into the <span className="text-gray-400">apps and workflows</span> we have build.
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+            A peak into what we have built
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            Here are some of the MVPs I've helped founders launch. They all had innovative ideas and I helped them convert them into reality.
+            Below are some of the apps and workflows we've helped founders launch. They all had innovative ideas and we helped them convert them into reality.
           </p>
         </div>
         
