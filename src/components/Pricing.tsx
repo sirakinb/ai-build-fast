@@ -18,13 +18,8 @@ const Pricing = () => {
         
         <div className="grid md:grid-cols-2 gap-8">
           {/* MVP Development Package */}
-          <div className="relative rounded-xl overflow-hidden border border-[#2A2D3E] bg-card/50">
-            <div className="absolute top-0 left-0">
-              <div className="bg-purple-500 text-white px-4 py-1 rounded-br-lg font-medium">
-                Most Popular
-              </div>
-            </div>
-            <div className="px-6 pt-12 pb-8">
+          <div className="relative rounded-xl overflow-hidden border border-[#2A2D3E] bg-card/50 flex flex-col">
+            <div className="px-6 pt-12 pb-8 flex-grow">
               <div className="bg-black/20 inline-block px-4 py-1 rounded-full text-white mb-4">
                 One time
               </div>
@@ -34,7 +29,7 @@ const Pricing = () => {
                 <p className="text-white/70 mt-1">Delivered in 4-5 weeks</p>
               </div>
               
-              <div className="mt-8 mb-6">
+              <div className="mt-8 mb-6 flex-grow">
                 <h4 className="text-xl font-semibold text-white mb-6">What's Included:</h4>
                 <ul className="space-y-4">
                   {[
@@ -53,15 +48,15 @@ const Pricing = () => {
                 </ul>
               </div>
               
-              <Button className="w-full bg-white hover:bg-white/90 text-background mt-4">
+              <Button className="w-full bg-white hover:bg-white/90 text-background mt-auto">
                 Get Started
               </Button>
             </div>
           </div>
           
           {/* Automated Workflow Package */}
-          <div className="rounded-xl overflow-hidden border border-[#2A2D3E] bg-black">
-            <div className="px-6 pt-12 pb-8">
+          <div className="rounded-xl overflow-hidden border border-[#2A2D3E] bg-black flex flex-col">
+            <div className="px-6 pt-12 pb-8 flex-grow">
               <div className="bg-white/10 inline-block px-4 py-1 rounded-full text-white mb-4">
                 Quick turnaround
               </div>
@@ -71,7 +66,7 @@ const Pricing = () => {
                 <p className="text-white/70 mt-1">Delivered in 7–10 days</p>
               </div>
               
-              <div className="mt-8 mb-6">
+              <div className="mt-8 mb-6 flex-grow">
                 <h4 className="text-xl font-semibold text-white mb-6">What's Included:</h4>
                 <ul className="space-y-4">
                   {[
@@ -89,7 +84,7 @@ const Pricing = () => {
                 </ul>
               </div>
               
-              <Button className="w-full bg-white hover:bg-white/90 text-background mt-4">
+              <Button className="w-full bg-white hover:bg-white/90 text-background mt-auto">
                 Get Started
               </Button>
             </div>
