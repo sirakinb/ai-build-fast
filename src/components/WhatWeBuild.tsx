@@ -48,7 +48,7 @@ const PortfolioShowcase = () => {
             <div className="rounded-xl overflow-hidden mb-6 border border-[#2A2D3E]">
               <AspectRatio ratio={16/9}>
                 <img 
-                  src="/lovable-uploads/9dfe6a18-0994-4fe5-9898-497c920ab721.png" 
+                  src="/lovable-uploads/361e1865-8c3d-4d57-83cc-933db4e5e697.png" 
                   alt="Calorie Canvas app screenshot" 
                   className="w-full h-full object-contain"
                 />
