@@ -12,13 +12,13 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/146d7168-f2fc-499a-b964-2e9a10ea3aa5.png" 
               alt="Pentridge Media" 
-              className="h-10"
+              className="h-14"
             />
           </a>
           
           <Button 
             variant="outline" 
-            className="border border-white/20 text-white hover:bg-white/10 rounded-full"
+            className="border-white text-white hover:bg-white/10"
             onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Schedule A Call
