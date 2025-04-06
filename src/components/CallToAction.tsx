@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { HelpCircle } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
@@ -39,13 +38,7 @@ const CallToAction = () => {
   return (
     <section id="faq" className="section-container bg-[#131520] py-16">
       <div className="max-w-3xl mx-auto text-center mb-12">
-        <div className="flex items-center justify-center gap-2 mb-4">
-          <HelpCircle className="w-6 h-6 text-primary" />
-          <h2 className="text-3xl md:text-4xl font-bold text-white">Frequently Asked Questions</h2>
-        </div>
-        <p className="text-muted text-lg">
-          Got more questions? Feel free to <a href="#" className="text-primary hover:underline">contact us</a>.
-        </p>
+        <h2 className="text-3xl md:text-4xl font-bold text-white">Frequently Asked Questions</h2>
       </div>
       
       <div className="max-w-2xl mx-auto">
@@ -67,11 +60,15 @@ const CallToAction = () => {
         </Accordion>
         
         <div className="mt-12 text-center">
+          <div className="mb-4">
+            <h3 className="text-2xl font-bold text-white mb-2">This Is Your Sign To Move</h3>
+            <p className="text-muted mb-6">Turn your ideas into real products or streamline your business with smart automation.</p>
+          </div>
           <a 
             href="#" 
             className="inline-flex items-center justify-center rounded-md border border-white bg-[#191B2A] hover:bg-[#22253B] text-white text-lg font-medium py-4 px-8"
           >
-            Start Your Project
+            Schedule A Call
           </a>
         </div>
       </div>
