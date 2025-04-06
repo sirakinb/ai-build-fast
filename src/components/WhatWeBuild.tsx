@@ -66,7 +66,7 @@ const PortfolioShowcase = () => {
             <h3 className="text-2xl font-bold text-white mb-2">Calorie Canvas</h3>
             
             <p className="text-gray-400 mt-1">
-              Track your calories with just a picture. Snap a photo or scan a barcode, and instantly calculate calories and nutrients with personalized insights.
+              Track your calories with just a picture. Snap a photo or type a description, and instantly calculate calories and nutrients with personalized insights.
             </p>
           </div>
           
