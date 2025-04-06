@@ -21,12 +21,12 @@ const HeroSection = () => {
               className="bg-white text-background hover:bg-white/90"
               onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Let's Talk
+              Schedule A Call
             </Button>
             <Button 
               variant="outline" 
               className="border-white text-white hover:bg-white/10"
-              href="#download"
+              onClick={() => window.location.href = "#download"}
             >
               Download Your Free Prompt Improving Tool
             </Button>
