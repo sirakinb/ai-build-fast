@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
@@ -122,7 +121,7 @@ const PortfolioShowcase = () => {
             </h3>
             
             <p className="text-gray-400 mt-1">
-              An AI tool that finds answers to complex questions by searching the web. Easily connects with your existing workflows to turn research into action.
+              An AI tool that answers queries by searching the web, and can connect with your workflows to turn research into action.
             </p>
           </div>
         </div>
