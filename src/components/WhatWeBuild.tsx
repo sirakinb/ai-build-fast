@@ -122,7 +122,7 @@ const PortfolioShowcase = () => {
             </h3>
             
             <p className="text-gray-400 mt-1">
-              An interface that allows you to query the web for different topics, with the capability of integrating it into your workflows to take the query results and do other things with it.
+              A sophisticated AI research tool that scours the web to find precise answers to complex questions. Seamlessly integrates with your existing workflows, allowing you to transform research findings into actionable insights without switching platforms.
             </p>
           </div>
         </div>
