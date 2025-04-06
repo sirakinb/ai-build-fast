@@ -28,15 +28,15 @@ const PortfolioShowcase = () => {
             
             <div className="flex flex-wrap gap-2 mb-4">
               {["AI", "Productivity", "Mental Clarity", "Task Management"].map((tag, index) => (
-                <span key={index} className={`px-4 py-1.5 rounded-full text-sm ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
+                <span key={index} className={`px-4 py-1.5 rounded-full text-sm text-white ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
                   {tag}
                 </span>
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-[#6C7EE1] mb-2">ProjectName.ai</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">ProjectName.ai</h3>
             
-            <p className="text-white/80 mt-1">
+            <p className="text-gray-400 mt-1">
               An AI-powered productivity tool that transforms scattered thoughts into organized, actionable items.
             </p>
           </div>
@@ -53,15 +53,15 @@ const PortfolioShowcase = () => {
             
             <div className="flex flex-wrap gap-2 mb-4">
               {["Mobile App", "Social Networking", "Solo Travelers"].map((tag, index) => (
-                <span key={index} className={`px-4 py-1.5 rounded-full text-sm ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
+                <span key={index} className={`px-4 py-1.5 rounded-full text-sm text-white ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
                   {tag}
                 </span>
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-[#6C7EE1] mb-2">TravelApp</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">TravelApp</h3>
             
-            <p className="text-white/80 mt-1">
+            <p className="text-gray-400 mt-1">
               A social travel app designed for solo travelers to connect, share experiences, and discover new destinations.
             </p>
           </div>
@@ -78,15 +78,15 @@ const PortfolioShowcase = () => {
             
             <div className="flex flex-wrap gap-2 mb-4">
               {["AI", "EdTech", "Study Companion", "PDF/Video Analysis"].map((tag, index) => (
-                <span key={index} className={`px-4 py-1.5 rounded-full text-sm ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
+                <span key={index} className={`px-4 py-1.5 rounded-full text-sm text-white ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
                   {tag}
                 </span>
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-[#6C7EE1] mb-2">LearnAI</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">LearnAI</h3>
             
-            <p className="text-white/80 mt-1">
+            <p className="text-gray-400 mt-1">
               A smart study assistant that helps users engage deeply with study materials like PDFs and videos.
             </p>
           </div>
@@ -103,15 +103,15 @@ const PortfolioShowcase = () => {
             
             <div className="flex flex-wrap gap-2 mb-4">
               {["Payments", "Real-time Analytics", "Dashboard Creation"].map((tag, index) => (
-                <span key={index} className={`px-4 py-1.5 rounded-full text-sm ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
+                <span key={index} className={`px-4 py-1.5 rounded-full text-sm text-white ${index === 0 ? 'bg-[#13141F] border border-[#2A2D3E]' : 'bg-[#1E1F2E] border border-transparent'}`}>
                   {tag}
                 </span>
               ))}
             </div>
             
-            <h3 className="text-2xl font-bold text-[#6C7EE1] mb-2">MarketingHub</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">MarketingHub</h3>
             
-            <p className="text-white/80 mt-1">
+            <p className="text-gray-400 mt-1">
               A centralized platform that consolidates campaign data from various sources, allowing users to monitor metrics in real-time.
             </p>
           </div>
