@@ -20,9 +20,10 @@ const HeroSection = () => {
               href="https://cal.com/akinyemi-bajulaiye-2jua88/30min-copy"
               target="_blank"
               rel="noopener noreferrer"
+              className="w-full sm:w-auto"
             >
               <Button 
-                className="bg-white text-[#0e0e16] hover:bg-white/90 py-6 text-lg font-medium rounded-lg"
+                className="w-full bg-white text-[#0e0e16] hover:bg-white/90 py-4 sm:py-6 text-base sm:text-lg font-medium rounded-lg"
               >
                 Schedule A Call
               </Button>
@@ -31,12 +32,14 @@ const HeroSection = () => {
               href="https://tally.so/r/3xzOJd"
               target="_blank"
               rel="noopener noreferrer"
+              className="w-full sm:w-auto"
             >
               <Button 
                 variant="outline" 
-                className="border-white text-white hover:bg-white/10 py-6 text-lg font-medium rounded-lg"
+                className="w-full border-white text-white hover:bg-white/10 py-4 sm:py-6 text-base sm:text-lg font-medium rounded-lg"
               >
-                Access The Prompt Improver (Free AI Tool)
+                <span className="sm:hidden">Free AI Tool: Prompt Improver</span>
+                <span className="hidden sm:inline">Access The Prompt Improver (Free AI Tool)</span>
               </Button>
             </a>
           </div>
