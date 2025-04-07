@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -16,13 +15,18 @@ const Navbar = () => {
             />
           </a>
           
-          <Button 
-            variant="outline" 
-            className="border-white text-white hover:bg-white/10"
-            onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}
+          <a 
+            href="https://cal.com/akinyemi-bajulaiye-2jua88/30min-copy"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Schedule A Call
-          </Button>
+            <Button 
+              variant="outline" 
+              className="border-white text-white hover:bg-white/10"
+            >
+              Schedule A Call
+            </Button>
+          </a>
         </div>
       </div>
     </header>

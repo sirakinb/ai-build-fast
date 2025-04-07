@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 
@@ -17,19 +16,29 @@ const HeroSection = () => {
             Whether it's a custom app or automating your operations — we help you build faster and smarter with AI.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            <Button 
-              className="bg-white text-[#0e0e16] hover:bg-white/90 py-6 text-lg font-medium rounded-lg"
-              onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}
+            <a 
+              href="https://cal.com/akinyemi-bajulaiye-2jua88/30min-copy"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Schedule A Call
-            </Button>
-            <Button 
-              variant="outline" 
-              className="border-white text-white hover:bg-white/10 py-6 text-lg font-medium rounded-lg"
-              onClick={() => window.location.href = "#download"}
+              <Button 
+                className="bg-white text-[#0e0e16] hover:bg-white/90 py-6 text-lg font-medium rounded-lg"
+              >
+                Schedule A Call
+              </Button>
+            </a>
+            <a 
+              href="https://tally.so/r/3xzOJd"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Get Your Prompt Improver (Free AI Tool)
-            </Button>
+              <Button 
+                variant="outline" 
+                className="border-white text-white hover:bg-white/10 py-6 text-lg font-medium rounded-lg"
+              >
+                Access The Prompt Improver (Free AI Tool)
+              </Button>
+            </a>
           </div>
         </div>
       </div>

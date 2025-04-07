@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   Accordion,
@@ -65,7 +64,9 @@ const CallToAction = () => {
             <p className="text-muted mb-6">Turn your ideas into real products or streamline your business with smart automation.</p>
           </div>
           <a 
-            href="#" 
+            href="https://cal.com/akinyemi-bajulaiye-2jua88/30min-copy"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md border border-white bg-[#191B2A] hover:bg-[#22253B] text-white text-lg font-medium py-4 px-8"
           >
             Schedule A Call

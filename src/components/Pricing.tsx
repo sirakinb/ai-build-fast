@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from './ui/button';
 import { Check } from 'lucide-react';
@@ -50,9 +49,16 @@ const Pricing = () => {
             </div>
             
             <div className="px-6 pb-8 mt-auto">
-              <Button className="w-full bg-white hover:bg-white/90 text-background">
-                Get Started
-              </Button>
+              <a 
+                href="https://cal.com/akinyemi-bajulaiye-2jua88/30min-copy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <Button className="w-full bg-white hover:bg-white/90 text-background">
+                  Get Started
+                </Button>
+              </a>
             </div>
           </div>
           
@@ -88,9 +94,16 @@ const Pricing = () => {
             </div>
             
             <div className="px-6 pb-8 mt-auto">
-              <Button className="w-full bg-white hover:bg-white/90 text-background">
-                Get Started
-              </Button>
+              <a 
+                href="https://cal.com/akinyemi-bajulaiye-2jua88/30min-copy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <Button className="w-full bg-white hover:bg-white/90 text-background">
+                  Get Started
+                </Button>
+              </a>
             </div>
           </div>
         </div>
